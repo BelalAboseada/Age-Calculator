@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="Footer text-center">
       <p className="opensource">
       The project is open source and you can access it from .
-        <a target="_blank"  href="https://github.com/BelalAboSeada">
+        <a target="_blank"  href="https://github.com/BelalAboseada/Age-Calculator">
           <br></br>
           <img src={GitHub} loading="lazy" alt="GitHub" />
         </a>
