@@ -1,0 +1,42 @@
+.Footer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    left: 0;
+  
+    .opensource {
+      font-weight: 700;
+      color: var(--main);
+      img {
+        width: 30px;
+      }
+    }
+    .Aouther {
+      color: var(--text);
+      font-size: 17px;
+      font-weight: 600;
+      padding-bottom: 5px;
+     
+      a {
+        text-decoration: none;
+        color: var(--main);
+        transition: 1.6s;
+        padding: 0px 3px;
+        &:hover {
+          padding: 0px 6px;
+          background-color: var(--mainColor);
+          color: #eee;
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+  
+  
+  @media (max-width: 768px) {
+    .Footer {
+      padding: 20px;
+    }
+  }
+  
