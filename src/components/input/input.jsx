@@ -63,7 +63,7 @@ const Input = () => {
             <span className="close" onClick={closeModal}>
               &times;
             </span>
-            <img src={congrates} alt="congrates image" />
+            <img src={congrates} alt="congrates image" loading="lazy" />
             <p>
               Your age is: {age.years} years, {age.months} months, and {age.days} days
             </p>
